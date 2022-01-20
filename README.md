@@ -18,5 +18,12 @@ Using textual analysis, I've created a categorization system for the type of (re
 The final output of this scraping project is a GeoJSON choropleth map that displays pro bono work categories by district. 
  
 ### Notebooks: 
-* Downloading nominee questionnaires: Using a combination of Beautiful Soup and Selenium, this notebook downloads over 50 PDFs from the Senate Judiciary Committee website. I use pdfminer to parse the PDFs and regex to pull information from each into a dataframe and CSV.
-* Creating pro bono categories and mapping: Using textual analysis, I categorize types of pro bono work, ultimately mapping the categories using GeoJSON. 
+* [Downloading nominee questionnaires](https://github.com/jessieblaeser/Federal-Court-Nominees-Scrape-and-Analysis/blob/233e10c37e2430277d0500f6941cc6e452ab3a04/Creating%20pro%20bono%20categories%20and%20mapping.ipynb): Using a combination of Beautiful Soup and Selenium, this notebook downloads over 50 PDFs from the Senate Judiciary Committee website. I use pdfminer to parse the PDFs and regex to pull information from each into a dataframe and CSV.
+* [Creating pro bono categories and mapping](https://github.com/jessieblaeser/Federal-Court-Nominees-Scrape-and-Analysis/blob/233e10c37e2430277d0500f6941cc6e452ab3a04/Creating%20pro%20bono%20categories%20and%20mapping.ipynb): Using textual analysis, I categorize types of pro bono work, ultimately mapping the categories using GeoJSON. 
+
+### Other uses: 
+
+If you have no interest at all in pro bono work, this code can still be used to:
+* Scrape the Senate Judiciary Committee's website
+* Download specific files 
+* Pool information about nominees 
